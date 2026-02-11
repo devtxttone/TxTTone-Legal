@@ -1,10 +1,10 @@
-# Terms of Service for [TxTone]
+# Terms of Service for [TxTTone]
 
 **Last Updated:** [02/11/2026]
 
 ## Agreement to Terms
 
-These Terms of Service ("Terms") govern your use of the [TxTone] mobile application (the "App") operated by [Charles Hall] ("we," "us," or "our").
+These Terms of Service ("Terms") govern your use of the [TxTTone] mobile application (the "App") operated by [Charles Hall] ("we," "us," or "our").
 
 By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the App.
 
@@ -57,7 +57,7 @@ The App, including its original content, features, functionality, source code, a
 - We are not responsible for any copyright infringement claims related to your use of audio files
 
 ### 3.3 Trademarks
-[TxTone] and associated logos are trademarks of [Charles Hall]. You may not use these trademarks without our prior written consent.
+[TxTTone] and associated logos are trademarks of [Charles Hall]. You may not use these trademarks without our prior written consent.
 
 ---
 
@@ -246,5 +246,5 @@ BY USING THE APP, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO B
 ---
 
 **[Charles Hall]**  
-**[TxTone]**  
+**[TxTTone]**  
 **Version 1.0**
