@@ -1,10 +1,10 @@
-# Privacy Policy for [TxTone]
+# Privacy Policy for [TxTTone]
 
 **Last Updated:** [02/11/2026]
 
 ## Introduction
 
-[Charles Hall] ("we," "our," or "us") operates the [TxTone] mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
+[Charles Hall] ("we," "our," or "us") operates the [TxTTone] mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
 Please read this Privacy Policy carefully. By using the App, you agree to the collection and use of information in accordance with this policy. If you do not agree with the terms of this Privacy Policy, please do not use the App.
 
