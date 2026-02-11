@@ -1,10 +1,10 @@
-# Terms of Service for [Your App Name]
+# Terms of Service for [TxTone]
 
-**Last Updated:** [Current Date]
+**Last Updated:** [02/11/2026]
 
 ## Agreement to Terms
 
-These Terms of Service ("Terms") govern your use of the [Your App Name] mobile application (the "App") operated by [Your Company/Developer Name] ("we," "us," or "our").
+These Terms of Service ("Terms") govern your use of the [TxTone] mobile application (the "App") operated by [Charles Hall] ("we," "us," or "our").
 
 By downloading, installing, or using the App, you agree to be bound by these Terms. If you do not agree to these Terms, do not use the App.
 
@@ -48,7 +48,7 @@ While we may offer optional cloud backup features, you are solely responsible fo
 ## 3. Intellectual Property Rights
 
 ### 3.1 Our Intellectual Property
-The App, including its original content, features, functionality, source code, and design, is owned by [Your Company/Developer Name] and is protected by international copyright, trademark, and other intellectual property laws.
+The App, including its original content, features, functionality, source code, and design, is owned by [Charles Hall] and is protected by international copyright, trademark, and other intellectual property laws.
 
 ### 3.2 User Content
 - You retain all rights to the audio files and content you upload or use with the App
@@ -57,7 +57,7 @@ The App, including its original content, features, functionality, source code, a
 - We are not responsible for any copyright infringement claims related to your use of audio files
 
 ### 3.3 Trademarks
-[Your App Name] and associated logos are trademarks of [Your Company/Developer Name]. You may not use these trademarks without our prior written consent.
+[TxTone] and associated logos are trademarks of [Charles Hall]. You may not use these trademarks without our prior written consent.
 
 ---
 
@@ -111,7 +111,7 @@ We do not guarantee that:
 - Any errors in the App will be corrected
 
 ### 6.3 Limitation of Liability
-TO THE MAXIMUM EXTENT PERMITTED BY LAW, [YOUR COMPANY/DEVELOPER NAME] SHALL NOT BE LIABLE FOR ANY:
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, [Charles Hall] SHALL NOT BE LIABLE FOR ANY:
 - Indirect, incidental, special, consequential, or punitive damages
 - Loss of profits, revenue, data, or use
 - Damages resulting from your use or inability to use the App
@@ -127,7 +127,7 @@ We are not responsible for any damage to your device resulting from the use of t
 
 ## 7. Indemnification
 
-You agree to indemnify, defend, and hold harmless [Your Company/Developer Name] and its affiliates, officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses (including legal fees) arising from:
+You agree to indemnify, defend, and hold harmless [Charles Hall] and its affiliates, officers, directors, employees, and agents from any claims, damages, losses, liabilities, and expenses (including legal fees) arising from:
 - Your use of the App
 - Your violation of these Terms
 - Your violation of any rights of another party
@@ -197,21 +197,21 @@ Your continued use of the App after changes constitutes acceptance of the update
 
 ## 12. Governing Law and Jurisdiction
 
-These Terms are governed by and construed in accordance with the laws of [Your Country/State], without regard to its conflict of law provisions.
+These Terms are governed by and construed in accordance with the laws of United States, without regard to its conflict of law provisions.
 
-Any legal action or proceeding arising from these Terms shall be brought exclusively in the courts of [Your Jurisdiction].
+Any legal action or proceeding arising from these Terms shall be brought exclusively in the courts of United States.
 
 ---
 
 ## 13. Dispute Resolution
 
 ### 13.1 Informal Resolution
-Before filing a formal dispute, you agree to contact us at [your-email@example.com] to attempt to resolve the issue informally.
+Before filing a formal dispute, you agree to contact us at [devtexttone@gmail.com] to attempt to resolve the issue informally.
 
 ### 13.2 Arbitration (Optional - consult a lawyer)
 Any disputes arising from these Terms may be resolved through binding arbitration rather than in court, except where prohibited by law.
 
----
+--- 
 
 ## 14. Severability
 
@@ -227,7 +227,7 @@ Our failure to enforce any right or provision of these Terms shall not be deemed
 
 ## 16. Entire Agreement
 
-These Terms, together with our Privacy Policy, constitute the entire agreement between you and [Your Company/Developer Name] regarding the App and supersede all prior agreements.
+These Terms, together with our Privacy Policy, constitute the entire agreement between you and [Charles Hall] regarding the App and supersede all prior agreements.
 
 ---
 
@@ -235,9 +235,7 @@ These Terms, together with our Privacy Policy, constitute the entire agreement b
 
 If you have any questions about these Terms, please contact us:
 
-**Email**: [your-email@example.com]  
-**Website**: [your-website.com]  
-**Address**: [Your Physical Address, if applicable]
+**Email***   [devtexttone@gmail.com]  
 
 ---
 
@@ -247,6 +245,6 @@ BY USING THE APP, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO B
 
 ---
 
-**[Your Company/Developer Name]**  
-**[Your App Name]**  
+**[Charles Hall]**  
+**[TxTone]**  
 **Version 1.0**
