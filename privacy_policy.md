@@ -4,7 +4,7 @@
 
 ## Introduction
 
-[Your Company/Developer Name] ("we," "our," or "us") operates the [Your App Name] mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
+[Charles Hall] ("we," "our," or "us") operates the [TxTone] mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
 Please read this Privacy Policy carefully. By using the App, you agree to the collection and use of information in accordance with this policy. If you do not agree with the terms of this Privacy Policy, please do not use the App.
 
@@ -155,7 +155,7 @@ You can access and update your information within the App settings.
 ### 8.2 Data Deletion
 You can request deletion of your data by:
 - Uninstalling the App (deletes all local data)
-- Contacting us at [your-email@example.com]
+- Contacting us at [devtexttone@gmail.com]
 - Using the "Delete My Data" option in App settings (if applicable)
 
 ### 8.3 Opt-Out of Ads
@@ -173,8 +173,8 @@ You can enable or disable cloud backup at any time in the App settings.
 
 - **Local Data**: Stored on your device until you uninstall the App or clear app data
 - **Cloud Backup Data**: Retained until you delete it or disable cloud backup
-- **Analytics Data**: Retained for [X months] then automatically deleted
-- **Crash Reports**: Retained for [X months] for debugging purposes
+- **Analytics Data**: Retained for [12 months] then automatically deleted
+- **Crash Reports**: Retained for [90 days] for debugging purposes
 
 ---
 
@@ -206,7 +206,7 @@ If you are a California resident, you have the right to:
 
 **We do not sell your personal information.**
 
-To exercise these rights, contact us at [your-email@example.com].
+To exercise these rights, contact us at [devtexttone@gmail.com].
 
 ---
 
@@ -221,7 +221,7 @@ If you are in the European Economic Area (EEA), you have the following rights:
 - **Right to Object**: Object to certain processing activities
 - **Right to Withdraw Consent**: Withdraw consent at any time
 
-To exercise these rights, contact us at [your-email@example.com].
+To exercise these rights, contact us at [devtexttone@gmail.com].
 
 ---
 
@@ -229,9 +229,7 @@ To exercise these rights, contact us at [your-email@example.com].
 
 If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
 
-**Email**: [your-email@example.com]  
-**Website**: [your-website.com]  
-**Address**: [Your Physical Address, if applicable]
+**Email**: [devtexttone@gmail.com]  
 
 ---
 
@@ -241,6 +239,6 @@ By using the App, you hereby consent to this Privacy Policy and agree to its ter
 
 ---
 
-**[Your Company/Developer Name]**  
-**[Your App Name]**  
+**[Charles Hall]**  
+**[TxTone]**  
 **Version 1.0**
