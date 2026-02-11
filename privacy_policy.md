@@ -1,6 +1,6 @@
-# Privacy Policy for [Your App Name]
+# Privacy Policy for [TxTone]
 
-**Last Updated:** [Current Date]
+**Last Updated:** [02/11/2026]
 
 ## Introduction
 
