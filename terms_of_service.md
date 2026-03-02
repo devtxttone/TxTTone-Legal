@@ -2,7 +2,7 @@
 
 Terms of Service
 
-Last Updated: March 1, 2026 • Version 2.0
+Last Updated: March 1, 2026 
 
 These Terms of Service ("Terms") govern your use of the TxTTone mobile application (the "App") operated by Charles Hall ("we," "us," or "our").
 
