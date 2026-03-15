@@ -2,7 +2,7 @@
 
 Privacy Policy
 
-Last Updated: March 1, 2026 • Version 1.0
+Last Updated: March 15, 2026 • Version 1.1
 
 Charles Hall ("we," "our," or "us") operates the TxTTone mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -21,6 +21,8 @@ TxTTone uses the Android Notification Access permission to detect incoming messa
 **1.3 Audio Files**
 
 The App allows you to select and use audio files as ringtones and notification sounds. These audio files are stored locally on your device. We do not upload, transmit, or store your audio files on our servers.
+
+You may also record or import custom audio clips directly within the App. These user-created or user-imported sound files are stored locally on your device in the App's private storage directory. They are never transmitted to our servers, shared with third parties, or used for any purpose other than playback within the App. You can delete these files at any time by removing them within the App or by clearing the App's data via Android Settings → Apps → TxTTone → Clear app data.
 
 **1.4 Usage and Diagnostic Data**
 
@@ -166,4 +168,4 @@ Email: <devtexttone@gmail.com>
 
 By using the App, you hereby consent to this Privacy Policy and agree to its terms.
 
-Charles Hall • TxTTone • Privacy Policy • Version 1.0 • March 2026
+Charles Hall • TxTTone • Privacy Policy • Version 1.1 • March 2026
