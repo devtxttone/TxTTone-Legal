@@ -1,8 +1,8 @@
-# TxTTone
+TxTTone
 
 ## Privacy Policy
 
-**Last Updated:** March 22, 2026 • Version 1.2
+**Last Updated:** April 15, 2026 • Version 1.3
 
 Charles Hall ("we," "our," or "us") operates the TxTTone mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our App.
 
@@ -16,6 +16,8 @@ Please read this Privacy Policy carefully. By using the App, you agree to the co
 
 We access your device's contact list to allow you to assign custom ringtones and notification sounds to specific contacts. This information is stored locally on your device and is never transmitted to our servers.
 
+When the per-contact ringtone queue feature is enabled, TxTTone writes a ringtone URI to the standard `CUSTOM_RINGTONE` field in your device's Contacts database. This is a standard Android field read by the native dialer to play the assigned ringtone when that contact calls. No other contact data is read or modified. This change is made locally on your device and is never transmitted externally.
+
 ### 1.2 Notification Metadata
 
 TxTTone uses the Android Notification Access permission to detect incoming message and call notifications. The app reads only notification metadata (sender name and originating app identifier). It does not access, read, store, or transmit message content or notification bodies. All notification processing occurs locally on your device and no data is retained after processing. TxTTone does not collect this data — it is processed in real time and discarded.
@@ -26,7 +28,19 @@ The App allows you to select and use audio files as ringtones and notification s
 
 You may also record or import custom audio clips directly within the App. These user-created or user-imported sound files are stored locally on your device in the App's private storage directory. They are never transmitted to our servers, shared with third parties, or used for any purpose other than playback within the App. You can delete these files at any time by removing them within the App or by clearing the App's data via Android Settings → Apps → TxTTone → Clear app data.
 
-### 1.4 Usage and Diagnostic Data
+When TxTTone copies a sound file for use as a native ringtone, it stores a managed copy in `Ringtones/TxTTone/` in your device's shared storage. This folder and its contents may persist after the app is uninstalled, as Android does not automatically delete files in shared storage on uninstall. You can delete these files manually using any file manager app.
+
+### 1.4 System Settings and Ringtone Staging
+
+When the Custom Ringtones feature is enabled by the user, TxTTone uses the WRITE_SETTINGS permission to manage your system ringtone as follows:
+
+- **Ringtone suppression for text tones:** TxTTone temporarily suppresses the system notification sound while a custom text tone is playing, so your custom sound plays cleanly. Your original ringtone is not modified by this process.
+- **Per-contact ringtone staging:** TxTTone writes the contact's assigned ringtone URI to their `CUSTOM_RINGTONE` field in your Contacts database so Samsung's native dialer plays it when that person calls.
+- **Global native ringtone randomization:** When this optional feature is enabled, TxTTone stages the next sound in your playlist as the system default ringtone ahead of incoming calls. Your original ringtone URI is saved locally and restored when the feature is disabled.
+
+All system setting changes are made locally on your device and are never transmitted externally. You can restore your original ringtone manually at any time via the Restore button in Settings.
+
+### 1.5 Usage and Diagnostic Data
 
 TxTTone itself does not collect usage data. However, third-party SDKs integrated into the App collect the following on our behalf:
 
@@ -34,10 +48,6 @@ TxTTone itself does not collect usage data. However, third-party SDKs integrated
 - **App usage statistics and analytics** — via Firebase Analytics
 
 These SDKs operate under their own privacy policies, linked in Section 4.
-
-### 1.5 System Settings
-
-When the Custom Ringtones feature is enabled by the user, TxTTone uses the WRITE_SETTINGS permission to temporarily set the system ringtone to a silent audio file. This prevents the device's native dialer from playing the default ringtone over TxTTone's custom sound. Your original ringtone is saved locally on your device and restored automatically when the feature is disabled. You can also restore your ringtone manually at any time via the Restore button in Settings. No system setting changes are transmitted externally.
 
 ---
 
@@ -96,15 +106,18 @@ Google Play Terms of Service: https://play.google.com/about/play-terms/
 
 ## 5. Permissions
 
-The App requires the following permissions:
+The App requires or may request the following permissions:
 
 - **BIND_NOTIFICATION_LISTENER_SERVICE:** To detect incoming message and call notifications so custom sounds can be played at the right moment
 - **READ_CONTACTS:** To access your contact list for assigning custom sounds to specific contacts
-- **WRITE_SETTINGS:** To set the system ringtone to a silent audio file when Custom Ringtones is enabled. This is required for the feature to function, is user-initiated, and is fully reversible
+- **WRITE_CONTACTS:** To write a custom ringtone URI to the per-contact ringtone field in your Contacts database. Required for the per-contact ringtone queue feature. No other contact data is modified.
+- **READ_PHONE_STATE:** To detect incoming call state so TxTTone knows when to play custom ringtones and when to stop them. TxTTone does not read call logs, record calls, or access call content.
+- **WRITE_SETTINGS:** To manage the system ringtone setting when Custom Ringtones is enabled. This is required for the feature to function, is user-initiated, and is fully reversible.
 - **READ_EXTERNAL_STORAGE / READ_MEDIA_AUDIO:** To access audio files on your device for use as custom sounds
 - **POST_NOTIFICATIONS:** To post notifications on Android 13 and above
 - **INTERNET:** To display advertisements and send crash/analytics reports
 - **ACCESS_NETWORK_STATE:** To determine network connectivity
+- **ROLE_CALL_SCREENING (optional):** If granted, gives TxTTone advance notice of incoming calls for more reliable custom ringtone playback. This role is optional and can be skipped or revoked at any time.
 
 You can manage these permissions in your device settings at any time.
 
@@ -148,7 +161,7 @@ You can access and update your information within the App settings.
 
 You can delete your data by:
 
-- Uninstalling the App (deletes all local data)
+- Uninstalling the App (deletes all private app data; shared storage files in `Ringtones/TxTTone/` must be deleted manually)
 - Contacting us at devtexttone@gmail.com
 - Using Android Settings → Apps → TxTTone → Clear app data
 
@@ -164,9 +177,11 @@ You can:
 
 ## 9. Data Retention
 
-- **Local Data:** Stored on your device until you uninstall the App or clear app data
-- **Analytics Data:** Retained for 12 months then automatically deleted
-- **Crash Reports:** Retained for 90 days for debugging purposes
+- **Local app data:** Stored on your device until you uninstall the App or clear app data
+- **Ringtone copies in shared storage:** Files in `Ringtones/TxTTone/` persist until manually deleted and are not removed on uninstall
+- **Per-contact ringtone assignments:** Ringtone URIs written to contacts via the `CUSTOM_RINGTONE` field persist in your Contacts database and may remain after uninstall
+- **Analytics data:** Retained for 12 months then automatically deleted
+- **Crash reports:** Retained for 90 days for debugging purposes
 
 ---
 
@@ -208,4 +223,4 @@ By using the App, you hereby consent to this Privacy Policy and agree to its ter
 
 ---
 
-*Charles Hall • TxTTone • Privacy Policy • Version 1.2 • March 2026*
+*Charles Hall • TxTTone • Privacy Policy • Versio
